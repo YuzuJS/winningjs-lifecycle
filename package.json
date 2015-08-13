@@ -1,0 +1,46 @@
+{
+  "name": "winningjs-lifecycle",
+  "description": "App lifecycle for WinJS Windows 8/10 development made easy. Enhance with other winningjs `kind` plug-ins.",
+  "version": "0.1.0",
+  "author": {
+    "name": "YuzuJS"
+  },
+  "contributors": [
+    {
+      "name": "Donavon West",
+      "email": "github@donavon.com",
+      "url": "http://donavon.com/"
+    }
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "http://github.com/YuzuJS/winningjs-lifecycle/raw/master/LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YuzuJS/winningjs-lifecycle.git"
+  },
+  "bugs": {
+    "url": "http://github.com/YuzuJS/winningjs-lifecycle/issues"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "jshint lib"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/index.js",
+  "dependencies": {
+    "pubit-as-promised": "~1.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-as-promised": "^5.1.0",
+    "coffee-script": "^1.9.3",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.4",
+    "sinon-chai": "^2.8.0"
+  }
+}
